@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>ARHAM-TRAVEL</title>
+    <link rel="icon" href="img/LOGO_ARHAM_BG_PUTIH-removebg-preview.png" sizes="180x180" >
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel='stylesheet' id='ht_ctc_main_css-css' href='https://www.alifahnurindo.com/wp-content/plugins/click-to-chat-for-whatsapp/new/inc/assets/css/main.css?ver=4.12' media='all' /> 
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner  -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-warning" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner  -->
+
+
+    <!-- Topbar  -->
+    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <small class="me-2 text-light"><i class="fa fa-map-marker-alt me-2"></i>jln CitraGran Cibubur CBD,Blok GR2 No.15.Bekasi 17434</small>
+                    <small class="me-2 text-light"><i class="fa fa-phone-alt me-2"></i>+62 856-9279-9211</small>
+                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>arsiumrahdanhaji@gmail.com</small>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <!-- Facebook -->
+                    <a class="btn btn-sm btn-purple btn-sm-square rounded-circle me-2" href="https://www.facebook.com/profile.php?id=61567383966326" target="_blank">
+                        <i class="fab fa-facebook-f fw-normal"></i>
+                    </a>
+                
+                    <!-- Instagram -->
+                    <a class="btn btn-sm btn-purple btn-sm-square rounded-circle me-2" href="https://www.instagram.com/arhamofficial.id/" target="_blank">
+                        <i class="fab fa-instagram fw-normal"></i>
+                    </a>
+                
+                    <!-- YouTube -->
+                    <a class="btn btn-sm btn-purple btn-sm-square rounded-circle" href="https://youtube.com/@arhamtravelhajiumrah?si=bO0GAeSPDFHkln8D" target="_blank">
+                        <i class="fab fa-youtube fw-normal"></i>
+                    </a>
+                </div>
+                          
+            </div>
+        </div>
+    </div>
+    <!-- Topbar -->
+
+
+    <!-- Navbar  -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+            <div class="header">
+                <img class="logo" src="img/LOGO_ARHAM_BG_PUTIH-removebg-preview.png" alt="Logo" 
+                style="background-image: linear-gradient(to right, #ffffff, #ffffff); padding: 2px; 
+                border-radius: 50px; width: 100px; height: 100px;">
+                           <h1 style="color: rgb(255, 255, 255); height: 20px;  ">
+         <i></i>ARHAM-TRAVEL</h1>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link alertx active">Home</a>
+                    <a href="tentang kami.html" class="nav-item  nav-link ">Tentang Kami</a>
+                    <a href="paket kami.html" class="nav-item nav-link">Paket Kami</a>
+                    <a href="galery.html" class="nav-item nav-link">Gallery</a>
+                    <div class="nav-item dropdown">
+                        
+                        
+                    </div>
+                    <a  href="contact.html" class="nav-item nav-link">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+<!-- nav -->
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+    .hero-header {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: background-image 0.5s ease-in-out;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        padding: 20px;
+    }
+    .hero-header h1 {
+        color: #ffffff;
+        margin: 0;
+        font-size: 2.5rem;
+    }
+    .hero-header p {
+        margin: 10px 0 20px;
+        font-size: 1.2rem;
+        max-width: 80%;
+    }
+    
+    /* Tombol panah di samping layar */
+    .nav-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 15px;
+        cursor: pointer;
+        font-size: 20px;
+        z-index: 10;
+        border-radius: 50%;
+    }
+    .nav-arrow.left { left: 20px; }
+    .nav-arrow.right { right: 20px; }
+</style>
+
+<body>
+    <div class="hero-header" id="hero-header">
+        <h1>SELAMAT DATANG DI ARHAM TRAVEL</h1>
+        <p>“Travel - Mu, Travel - Ku, Travel Pecinta Al - Qur’an”</p>
+        <a id="waLink" href="https://wa.me/6285692799211" target="_blank">
+            <span style="background-color: purple;" class="btn rounded-pill ">Chat Via WhatsApp</span>
+          </a>
+
+        <!-- Tombol panah di sisi layar -->
+        <button class="nav-arrow left" onclick="prevImage()">&#10094;</button>
+        <button class="nav-arrow right" onclick="nextImage()">&#10095;</button>
+    </div>
+
+    <script class="rounded-circle bg-white rounded-circle shadow p-1 mx-auto mb-3">
+        const images = [
+            'img/beranda,2.jpg' ,
+            'img/beranda,3.jpg',
+            'img/beranda,5.jpg',
+            'img/makkah1.jpg',
+            'img/makkah2.jpg',
+            'img/makkah3.jpg',
+            'img/makkah4.jpg',
+            'img/makkah5.jpg',
+            'img/makkah6.jpg',
+            'img/makkah7.jpg',
+        ];
+        let currentIndex = 0;
+        const heroHeader = document.getElementById('hero-header');
+
+        function updateImage() {
+            heroHeader.style.backgroundImage = `linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(${images[currentIndex]})`;
+        }
+
+        function nextImage() {
+            currentIndex = (currentIndex + 1) % images.length;
+            updateImage();
+        }
+
+        function prevImage() {
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            updateImage();
+        }
+
+        updateImage();
+    </script>
+    
+<div class="wa-logo-container">
+    <a id="waLink" href="https://wa.me/6285692799211" target="_blank">
+        <span class="btn btn bg-warning rounded-pill">Chat Via WhatsApp</span>
+        <img src="img/wa logo.png" alt="WhatsApp Logo" class="wa-logo"> 
+    </a>
+</div>
+
+
+    <!-- About  -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <video width="500" height="360" controls>
+                        <source src="img/vidio.mp4  " type="video/mp4">
+                      </video>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h2 style="text-align: center; font-weight: bold; margin-top: 0px; color: #fdc219;">Aman, Nyaman, Kekinian, Qur'ani</h2>                    <div>
+                       <p style="color: black; ">Arham Travel adalah agen perjalanan yang berkomitmen untuk memberikan layanan wisata terbaik bagi pelanggan. Kami menawarkan berbagai paket perjalanan, mulai dari wisata domestik, internasional, hingga umroh, dengan harga yang kompetitif dan pelayanan yang profesional. Kami berfokus pada kenyamanan dan kepuasan pelanggan, memastikan setiap perjalanan Anda menjadi pengalaman yang menyenangkan dan tak terlupakan.
+
+                        Dengan pengalaman dan dedikasi yang tinggi, Arham Travel siap membantu mewujudkan impian perjalanan Anda, baik untuk liburan, bisnis, maupun ibadah.
+                        
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+ 
+
+    <div style="margin-bottom: 80px;">
+        <h1><strong><span style="color: #000000; font-size: 40px; font-family: 'Montserrat';"> Paket Unggulan </span></strong></h1>
+
+        <div style="margin-bottom: 80px;">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+            <script>
+                function redirectToApp() {
+                    var appScheme = 'youtube://'; // scheme untuk membuka YouTube
+                    var playStoreUrl = 'https://play.google.com/store/apps/details?id=com.google.android.youtube';
+                    var appStoreUrl = 'https://apps.apple.com/us/app/youtube/id544007664'; // URL untuk App Store YouTube
+            
+                    var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+            
+                    if (/android/i.test(userAgent)) {
+                        window.location = appScheme; // mencoba membuka aplikasi YouTube di Android
+                        setTimeout(function() {
+                            window.location = playStoreUrl; // jika tidak terbuka, arahkan ke Play Store
+                        }, 2000);
+                    } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                        window.location = appScheme; // mencoba membuka aplikasi YouTube di iOS
+                        setTimeout(function() {
+                            window.location = appStoreUrl; // jika tidak terbuka, arahkan ke App Store
+                        }, 2000);
+                    } else {
+                        alert('Mohon kunjungi toko aplikasi untuk mengunduh aplikasi YouTube.');
+                    }
+                }
+            </script>
+            <style>
+            
+            
+            .flyer {
+                border-radius: 10px;
+                margin-right: 10px;
+                max-width: 200px;
+            }
+            
+            .flyer-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            .flyer-wrapper {
+                
+                display: flex;
+                justify-content: center;
+                margin-bottom: 10px; /* Jarak antara baris */
+            }
+            
+            .mainwrapper {
+                        background: #fefefe;
+                        display: flex;
+                        width: 100%;
+                        height: 650px;
+                        justify-content: center;
+                        align-items: center;
+                    }
+            
+                    img.imgthumb {
+                        width: 150px;
+                        border-radius: 10px;
+                    }
+            
+                    /* overlay by webprogramminunpas and modified by nelayankode.com*/
+                    .overlay {
+                        width: 0;
+                        height: 0;
+                        overflow: hidden;
+                        position: fixed;
+                        top: 0;
+                        left: 0;
+                        background: rgba(0, 0, 0, 0);
+                        z-index: 9999;
+                        transition: .8s;
+                        text-align: center;
+                        padding: 150px 0;
+                    }
+            
+                    .overlay:target {
+                        width: auto;
+                        height: auto;
+                        bottom: 0;
+                        right: 0;
+                        background: rgba(0, 0, 0, .7);
+                    }
+            
+                    .overlay img {
+                        max-height: 100%;
+                        box-shadow: 2px 2px 7px rgba(0, 0, 0, .5);
+                    }
+            
+                    .overlay:target img {
+                        animation: zoomDanFade 1s;
+                    }
+            
+                    .overlay .close {
+                        position: absolute;
+                        top: 2%;
+                        right: 2%;
+                        margin-left: -20px;
+                        color: white;
+                        text-decoration: none;
+                        line-height: 14px;
+                        padding: 5px;
+                        opacity: 0;
+                  }
+            
+                    .overlay:target .close {
+                        animation: slideDownFade .2s .2s forwards;
+                    }
+            
+                    /* animasi */
+                    @keyframes zoomDanFade {
+                        0% {
+                            transform: scale(0);
+                            opacity: 0;
+                        }
+            
+                        100% {
+                            transform: scale(1);
+                            opacity: 1;
+                        }
+                    }
+            
+                    @keyframes slideDownFade {
+                        0% {
+                            opacity: 0;
+                            margin-top: -20px;
+                        }
+            
+                        100% {
+                            opacity: 1;
+                            margin-top: 0;
+                        }
+                    }
+            
+            @media only screen and (max-width: 1150px) { 
+                .flyer {
+                    max-width: 300px;
+                }
+            }
+            
+            @media only screen and (max-width: 768px) { 
+                .flyer {
+                    max-width: 200px;
+                }
+            }
+            
+            @media only screen and (max-width: 500px) { 
+                .flyer {
+                    max-width: 150px;
+                }
+            }
+            
+            </style>
+            
+            <div class="flyer-container">
+                <div class="flyer-wrapper">
+                    <a href="img/foto,1.jpeg" data-fancybox="gallery" data-caption="Flyer 1">
+                        <img src="img/foto,1.jpeg" class="flyer" alt="">
+                    </a>
+                </div>
+                <div class="flyer-wrapper">
+                    <a href="img/foto,2.jpeg" data-fancybox="gallery" data-caption="Flyer 2">
+                        <img src="img/foto,2.jpeg" class="flyer" alt="">
+                    </a>
+                </div>
+                <div class="flyer-wrapper">
+                    <a href="img/foto,3.jpeg" data-fancybox="gallery" data-caption="Flyer 3">
+                        <img src="img/foto,3.jpeg" class="flyer" alt="">
+                    </a>
+                </div>
+                <div class="flyer-wrapper">
+                    <a href="img/foto,4.jpeg" data-fancybox="gallery" data-caption="Flyer 4">
+                        <img src="img/foto,4.jpeg" class="flyer" alt="">
+                    </a>
+                </div>
+                <div class="flyer-wrapper">
+                    <a href="img/foto,5.jpeg" data-fancybox="gallery" data-caption="Flyer 5">
+                        <img src="img/foto,5.jpeg" class="flyer" alt="">
+                    </a>
+                </div>
+            </div>
+            
+            <script>
+                $(document).ready(function() {
+                    $('[data-fancybox="gallery"]').fancybox({
+                        loop: true,
+                        buttons: [
+                            "slideShow",
+                            "share",
+                            "zoom",
+                            "fullScreen",
+                            "close"
+                        ]
+                    });
+                });
+            </script>
+            </div>
+            </div>
+            
+            <!-- instagram -->
+            <h1><strong><span style="color: #000000; font-size: 40px; font-family: 'Montserrat';"> Ikuti Kami di Media Sosial </span></strong></h1>        
+            <div class="sbi_feedtheme_header_text" style="text-align: center;">
+            <h3 style="color: rgb(0,0,0);">Arham-Travel</h3>
+            </div>
+            <div class="container" 
+     style="font-family: 'Poppins', sans-serif; 
+            display: grid; 
+            grid-template-columns: repeat(5, 1fr); 
+            gap: 10px; 
+            max-width: 900px; 
+            position: relative; 
+            width: 100%; 
+            height: 100%; 
+            border-radius: 20px; 
+            overflow: hidden; 
+            cursor: pointer;">
+    
+    <div class="post" onclick="window.open('https://www.instagram.com/p/DGvaQuKv7E-/', '_blank')">
+        <img src="img/in.3.png" alt="Post 1" style="border-radius: 15px; width: 80%; height: auto;">
+        <div class="overlay">Lihat di Instagram</div>
+    </div>
+
+    <div class="post" onclick="window.open('https://www.instagram.com/p/DHBTfKXPUdH/', '_blank')">
+        <img src="img/in.6.png" alt="Post 2" style="border-radius: 15px; width: 80%; height: auto;">
+        <div class="overlay">Lihat di Instagram</div>
+    </div>
+
+    <div class="post" onclick="window.open('https://www.instagram.com/p/DG-MYEZv3PF/', '_blank')">
+        <img src="img/in.1.png" alt="Post 3" style="border-radius: 15px; width: 80%; height: auto;">
+        <div class="overlay">Lihat di Instagram</div>
+    </div>
+  
+    <div class="post" onclick="window.open('https://www.instagram.com/p/DGLVcOBPCOy/', '_blank')">
+        <img src="img/instagram4.png" alt="Post 4" style="border-radius: 15px; width: 80%; height: auto;">
+        <div class="overlay">Lihat di Instagram</div>
+    </div>
+
+    <div class="post" onclick="window.open('https://www.instagram.com/p/DGAq5vlvcKl/', '_blank')">
+        <img src="img/instagram5.png" alt="Post 5" style="border-radius: 15px; width: 80%; height: auto;">
+        <div class="overlay">Lihat di Instagram</div>
+    </div>
+
+     <div class="post" onclick="window.open('https://www.instagram.com/p/DG23OB3vHSp/', '_blank')">
+        <img src="img/in.2.png" alt="Post 1" style="border-radius: 15px; width: 80%; height: auto;">
+        <div class="overlay">Lihat di Instagram</div>
+    </div>
+
+    <div class="post" onclick="window.open('https://www.instagram.com/p/DGqPyMpPYbd/', '_blank')">
+        <img src="img/in.4.png" alt="Post 2" style="border-radius: 15px; width: 80%; height: auto;">
+        <div class="overlay">Lihat di Instagram</div>
+    </div>
+
+    <div class="post" onclick="window.open('https://www.instagram.com/p/DGS8b3dPnTx/', '_blank')">
+        <img src="img/in.7.png" alt="Post 3" style="border-radius: 15px; width: 80%; height: auto;">
+        <div class="overlay">Lihat di Instagram</div>
+    </div>
+
+    <div class="post" onclick="window.open('https://www.instagram.com/p/DE7byE6Pt4m/', '_blank')">
+        <img src="img/instagram9.png" alt="Post 4" style="border-radius: 15px; width: 80%; height: auto;">
+        <div class="overlay">Lihat di Instagram</div>
+    </div>
+
+    <div class="post" onclick="window.open('https://www.instagram.com/p/DGYIT9AP40F/', '_blank')">
+        <img src="img/in.5.png" alt="Post 5" style="border-radius: 15px; width: 80%; height: auto;">
+        <div class="overlay">Lihat di Instagram</div>
+    </div>
+</div>
+<div style="text-align: center;">
+   <div class="fa fa-instagram"> <a class=" btn btn-purple rounded-pill py-2 px-4" href="https://www.instagram.com/arhamofficial.id/" target="_blank">Visit Our Instagram</a>
+</div>
+<!-- Link untuk memuat font Poppins dari Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<br>
+<br>
+<br>
+<h2 style="text-align: center; color: goldenrod;">Our Partner</h2>
+<div style="text-align: center; ">
+    <div class="kelas-container">
+        <div class="kelas">
+            <div class="kelas1">
+                <a class="wcp-light-box" data-buttons='["close"]' href="img/pesawat1.png" data-fancybox="wpcp_view">
+                    <img src="img/pesawat1.png" alt="Hotel 1" onclick="logoClicked(this.src)">
+                </a>
+            </div>
+            <div class="kelas2">
+                <a class="wcp-light-box" data-buttons='["close"]' href="img/pesawat2.png" data-fancybox="wpcp_view">
+                    <img src="img/pesawat2.png" alt="Hotel 2" onclick="logoClicked(this.src)">
+                </a>
+            </div>
+            <div class="kelas2">
+                <a class="wcp-light-box" data-buttons='["close"]' href="img/pesawat3.png" data-fancybox="wpcp_view">
+                    <img src="img/pesawat3.png" alt="Hotel 2" onclick="logoClicked(this.src)">
+                </a>
+            </div>
+            <div class="kelas2">
+                <a class="wcp-light-box" data-buttons='["close"]' href="img/pesawat4.png" data-fancybox="wpcp_view">
+                    <img src="img/pesawat4.png" alt="Hotel 2" onclick="logoClicked(this.src)">
+                </a>
+            </div>
+            <div class="kelas2">
+                <a class="wcp-light-box" data-buttons='["close"]' href="img/pesawat5.png" data-fancybox="wpcp_view">
+                    <img src="img/pesawat5.png" alt="Hotel 2" onclick="logoClicked(this.src)">
+                </a>
+            </div>
+            <div class="kelas2">
+                <a class="wcp-light-box" data-buttons='["close"]' href="img/saudia.png" data-fancybox="wpcp_view">
+                    <img src="img/saudia.png" alt="Hotel 2" onclick="logoClicked(this.src)">
+                </a>
+            </div>
+            <div class="kelas2">
+                <a class="wcp-light-box" data-buttons='["close"]' href="img/pesawat9.png" data-fancybox="wpcp_view">
+                    <img src="img/pesawat9.png" alt="Hotel 2" onclick="logoClicked(this.src)">
+                </a>
+            </div>
+            <div class="kelas2">
+                <a class="wcp-light-box" data-buttons='["close"]' href="img/pesawat7.png    " data-fancybox="wpcp_view">
+                    <img src="img/pesawat7.png" alt="Hotel 2" onclick="logoClicked(this.src)">
+                </a>
+            </div>
+    </div>
+    
+</div>
+</div>
+        <!-- duplikasi -->              
+         
+<div id="clickedContainer" class="clicked-logo"></div>
+
+
+
+<!-- jQuery (Harus ada sebelum Owl Carousel) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Owl Carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+<!-- Inisialisasi Owl Carousel -->
+<script>
+    $(document).ready(function() {
+        $(".owl-carousel").owlCarousel({
+            margin: 80,
+            nav: true,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                480: {
+                    items: 3
+                },
+                768: {
+                    items: 4
+                },
+                992: {
+                    items: 5
+                },
+                1200: {
+                    items: 6
+                }
+            }
+        });
+    });
+</script>
+
+  
+
+
+   <!-- Footer Start -->
+   <div class="container-fluid bg-white text-dark footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <!-- Tentang Arham Travel -->
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-warning mb-3">Jejak Arham</h4>
+                <p>Arham Travel bermula dari mimpi sederhana membantu orang-orang mewujudkan perjalanan impian mereka dengan nyaman dan penuh berkah.</p>
+            </div>
+
+            <!-- Perusahaan -->
+            <div class="col-lg-2 col-md-6">
+                <h4 class="text-warning mb-3">Perusahaan</h4>
+                <a class="text-dark" href="#">PT. Arham Rizqu Sama Internasional</a>
+            </div>
+
+            <!-- Head Office -->
+            <div class="col-lg-4 col-md-6 text-center">
+                <h4 class="text-warning mb-3">Head Office</h4>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jln CitraGran Cibubur CBD, Blok GR2 No.15, Bekasi 17434</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+62 856-9279-9211</p>
+                <p class="mb-4"><i class="fa fa-envelope me-3"></i>arsiumrahdanhaji@gmail.com</p>
+                
+                <!-- Sosial Media (Ditempatkan di Tengah) -->
+                <div class="d-flex justify-content-center">
+                    <a class="btn btn-warning btn-outline-light me-2" href="https://www.facebook.com/profile.php?id=61567383966326"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-warning btn-outline-light me-2" href="https://youtube.com/@arhamtravelhajiumrah?si=bO0GAeSPDFHkln8D"><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-warning btn-outline-light" href="https://www.instagram.com/arhamofficial.id/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Layanan -->
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-warning mb-3">Layanan</h4>
+                <p class="mb-1">Umroh</p>
+                <p class="mb-1">Haji</p>
+                <p class="mb-1">Visa Provider</p>
+                <p class="mb-1">Ticketing</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="container text-center mt-4">
+        <p class="mb-0">&copy; 2024 Arham Travel. All Rights Reserved.</p>
+    </div>
+</div>
+
+
+<!-- Footer End -->
+
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/tempusdominus/js/moment.min.js"></script>
+<script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+<script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+
+</html>
+  
